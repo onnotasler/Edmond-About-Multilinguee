@@ -1,0 +1,51 @@
+%!TEX TS-program = lualatex
+\documentclass[paper=260mm:190mm,paper=landscape,chapterprefix=false,numbers=noenddot,pagesize=luatex,BCOR=6.25mm,fontsize=10pt]{scrbook}
+
+\usepackage{fontspec}
+\setmainfont[
+    Ligatures=TeX,
+    SmallCapsFont={Latin Modern Roman Caps},
+    ]{Latin Modern Roman}
+
+\usepackage{tikz,xcolor,graphicx}
+\usetikzlibrary{calc,positioning}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=french]{french}
+\setotherlanguage[variant=german,spelling=old,babelshorthands=true,script=latin]{german}
+\setotherlanguage{danish}
+\setotherlanguage[swapstrings=all]{hungarian}
+\setotherlanguage[variant=british]{english}
+
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+\newcommand{\RomanNumeralCaps}[1]
+    {\MakeUppercase{\romannumeral #1}}
+
+\begin{document}
+
+\pagecolor{teal}
+
+\thispagestyle{empty} % Suppress page numbering
+
+\begin{tikzpicture}[remember picture,overlay]
+    \node [xshift=36mm,yshift=-64.86mm,rectangle, rounded corners, fill=white, opacity=0.75, minimum width=85.44mm, minimum height=129.72mm] {%
+        };
+    \node[xshift=55.42mm,yshift=-23.290mm,text width=83.44mm] at (current page.north west){%
+        {Edmond About } };
+    \node[xshift=55.42mm,yshift=-40.011mm,text width=83.44mm] at (current page.north west){%
+        {\Huge{\textsc{Tolla} } } };
+    \node[xshift=58.42mm,yshift=-60.011mm,text width=78.44mm] at (current page.north west){%
+         {\includegraphics[width=4mm]{dk.pdf} \textdanish{Tolla : En Roman}
+         \\ \includegraphics[width=4mm]{de.pdf} \textgerman{Tolla Feraldi : oder Wahre Lebensgeschichte \\
+         \hspace{26.8mm} Eines Mädchens }
+         \\ \includegraphics[width=4mm]{gb-sct.pdf} \textenglish{Tolla : A Tale of Modern Rome}
+         \\ \includegraphics[width=4mm]{fr.pdf} Tolla Feraldi
+         \\ \includegraphics[width=4mm]{hu.pdf} \texthungarian{Tolla : regény, egy kötetben} } };
+    \node[xshift=55.42mm,yshift=-113.3mm] at (current page.north west){%
+        \includegraphics[width=83.44mm]{view_of_the_tiber_near_perugia.jpg}};
+    \node[xshift=55.42mm,yshift=-184mm,text width=83.44mm,align=center] at (current page.north west){%
+        {Èdition \textit{Edmond About} multilingue} };
+\end{tikzpicture}
+
+\end{document}

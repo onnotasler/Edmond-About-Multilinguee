@@ -1,0 +1,10 @@
+\selectlanguage *[variant=french]{french}
+\contentsline {part}{\nonumberline Tome 1}{1}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {i}.}{3}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {ii}.}{15}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {iii}.}{31}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {iv}.}{55}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {v}.}{69}{}%
+\contentsline {chapter}{\nonumberline \MakeUppercase {vi}.}{105}{}%
+\contentsline {part}{\nonumberline Tome 2}{139}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

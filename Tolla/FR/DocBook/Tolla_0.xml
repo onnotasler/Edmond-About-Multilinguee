@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_xinclude.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "https://www.oasis-open.org/docbook/xml/5.0b5/dtd/docbook.dtd">
+
+<book xmlns='http://docbook.org/ns/docbook' xml:lang="fr">
+
+<title>Tolla Feraldi</title>
+<titleabbrev>Tolla</titleabbrev>
+
+<info>
+
+  <legalnotice><para>Pas de droit d’auteur</para></legalnotice>
+
+  <date>1855</date>
+
+  <author><personname>
+    <firstname>Edmond</firstname>
+    <othername>François Valentin</othername>
+    <surname>About</surname>
+  </personname></author>
+
+  <publisher>
+    <publishername>F. Schneider &amp; Comp.</publishername>
+    <address>
+      <street>Unter den Linden 19</street>
+      <city>Berlin</city>
+    </address>
+  </publisher>
+
+  <copyright>
+    <year>1855</year>
+    <holder>Pas de droit d’auteur</holder>
+  </copyright>
+
+</info>
+
+<part><title>Tome 1</title>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_01.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_02.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_03.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_04.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_05.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Tolla_1_06.xml"/>
+</part>
+
+<part><title>Tome 2</title>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_07.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_08.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_09.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_10.xml"/>
+</part>
+
+</book>

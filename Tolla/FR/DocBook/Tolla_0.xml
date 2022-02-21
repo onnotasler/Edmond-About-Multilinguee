@@ -44,10 +44,10 @@
 </part>
 
 <part><title>Tome 2</title>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_07.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_08.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_09.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_1_10.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_2_07.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_2_08.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_2_09.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="Tolla_2_10.xml"/>
 </part>
 
 </book>
